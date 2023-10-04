@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/neo_side_leg_raise_lefta"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/neo_side_leg_raise_left_b"
+        android:duration="400"/>
+</animation-list>

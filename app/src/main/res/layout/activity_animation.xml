@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation"
+    android:orientation="vertical"
+    android:background="#000">
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BICYCLE CRUNCHES"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#282c35">
+        <ImageView
+            android:id="@+id/an1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1"
+            android:layout_weight="-1"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradiant"
+            android:id="@+id/con"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="60dp"
+            android:text="CONTINUE"
+            android:textColor="#fff" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/neo_swimmer_and_superman_a"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/neo_swimmer_and_superman_b"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/neo_swimmer_and_superman_c"
+        android:duration="400"/>
+
+</animation-list>
